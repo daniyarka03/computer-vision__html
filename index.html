@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pose Detection with Mediapipe</title>
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/pose"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/face_mesh"></script>
+
+</head>
+<body>
+  <video id="video" autoplay></video>
+  <canvas id="outputCanvas" width="640" height="480"></canvas>
+  <p id="pushUpCountDisplay">Push-ups: 0</p>
+  <p id="smileDisplay">Smile detected: No</p>
+  <script src="app.js"></script>
+</body>
+</html>
